@@ -1,0 +1,43 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box{
+    width:200px;
+    height:200px;
+    background-color:cornflowerblue;
+    border-radius:10px;
+    margin:auto;
+}
+
+.hero{
+    height:400px;
+    background-color: rgb(89, 185, 158);
+}
+
+.portfolio, .contact{
+    
+    background-color: white;
+}
+
+.info{
+    background-color: rgb(64, 83, 107);
+}
+
+.about{
+    background-color: rgb(89, 185, 158);
+}
+
+.my-footer{
+    height: 40px;
+    background-color: rgb(48, 62, 78);
+}
+
+.my-header{
+    height:60px;
+    background-color: rgb(48, 62, 78);
+}
+
+.center-text{
+    text-align:center;
+}
