@@ -2,6 +2,66 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+h1{
+    color:white;
+    font-size:3rem;
+    font-weight:700;
+   
+}
+
+.avatar{
+    width:50%;
+}
+
+.navbar-text li{
+    display:inline;
+    font-size:1rem;
+    color:white;
+    font-weight:600;
+    text-transform:uppercase;
+    vertical-align:middle;
+}
+
+.my-divider{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.my-divider-line{
+    width: 20%;
+    height: 0.25rem;
+    background-color:white;
+    margin:0 1rem;    
+}
+
+
+
+.my-divider-icon{
+    font-size:2rem;
+    color:white;
+}
+
+section.portfolio .my-divider-line{
+    background-color:black;
+}
+
+section.portfolio .my-divider-icon{
+    color:black;
+}
+
+.icon{
+    width:200px;
+    height:200px;
+    border-radius:20px;
+    object-fit: cover;
+}
+
+
+
+
+
 .box{
     width:200px;
     height:200px;
@@ -10,8 +70,16 @@ body{
     margin:auto;
 }
 
+.main-logo {
+
+    font-weight:700;
+    font-size:2rem;
+    text-align:right;
+
+}
+
 .hero{
-    height:400px;
+    
     background-color: rgb(89, 185, 158);
 }
 
