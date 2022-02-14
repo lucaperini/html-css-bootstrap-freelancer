@@ -4,22 +4,48 @@ body{
 
 h1{
     color:white;
-    font-size:2rem;
+    font-size:3rem;
     font-weight:700;
-   
 }
 
-.avatar{
-    width:30%;
+section.hero h2{
+    color:white;
+    font-size:1.2rem;
+    font-weight:400;
 }
 
-.navbar-text li{
+.main-logo {
+    font-weight:700;
+    font-size:1.5rem;
+    
+}
+
+.navbar-nav{
+    position:absolute;
+    top:20%;
+    right:0;
+    
+}
+
+.navbar a{
+    margin-right:1rem;
+    text-decoration:none;
+}
+
+.navbar-text{
     display:inline;
     font-size:1rem;
     color:white;
     font-weight:600;
     text-transform:uppercase;
-    vertical-align:middle;
+}
+
+.hero{
+    background-color: rgb(89, 185, 158);
+}
+
+.avatar{
+    width:40%;
 }
 
 .my-divider{
@@ -30,69 +56,25 @@ h1{
 }
 
 .my-divider-line{
-    width: 20%;
+    width:30%;
     height: 0.25rem;
     background-color:white;
     margin:0 1rem;    
 }
-
-
 
 .my-divider-icon{
     font-size:2rem;
     color:white;
 }
 
-.my-text-left{
-    text-align:left;
-}
-section.portfolio .my-divider-line{
-    background-color:black;
-    width:15%;
-}
-
-section.portfolio .my-divider-icon{
-    color:black;
-}
-
-.icon{
-    width:100%;
-    border-radius:20px;
-    object-fit: cover;
-}
-
-
-
-
-
-.box{
-    width:200px;
-    height:200px;
-    background-color:cornflowerblue;
-    border-radius:10px;
-    margin:auto;
-}
-
-.main-logo {
-
-    font-weight:700;
-    font-size:2rem;
-    text-align:right;
-
-}
-
-.hero{
-    
-    background-color: rgb(89, 185, 158);
-}
-
 .portfolio, .contact{
-    
     background-color: white;
 }
 
-.footer-info{
-    background-color: rgb(64, 83, 107);
+.card{
+    width:100%;
+    border-radius:10px;
+    object-fit: cover;
 }
 
 .about{
@@ -100,15 +82,40 @@ section.portfolio .my-divider-icon{
 }
 
 .my-footer{
-    height: 40px;
+    height: 60px;
     background-color: rgb(48, 62, 78);
 }
 
-.my-header{
-    height:60px;
-    background-color: rgb(48, 62, 78);
+.footer-info{
+    background-color: rgb(64, 83, 107);
 }
 
-.center-text{
-    text-align:center;
+.my-text-left{
+    text-align:left;
+}
+
+.my-text-right{
+    text-align:right;
+}
+
+section.portfolio .my-divider-line,
+section.contact .my-divider-line{
+    background-color:black;
+    width:13%;
+}
+
+section.portfolio .my-divider-icon,
+section.contact .my-divider-icon{
+    color:black;
+}
+
+section.about .my-divider-line{
+    color:white;
+    width:12%;
+}
+
+section.footer-info a:link:nth-of-type(1){
+    color:greenyellow;
+    text-transform:uppercase;
+    text-decoration: none;
 }

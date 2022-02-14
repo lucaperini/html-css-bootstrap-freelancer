@@ -11,27 +11,31 @@
 </head>
 <body>
     <!-- HEADER -->
-    
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark dflex">
+        <div class="container relative">
             <a class="navbar-brand main-logo text-uppercase" href="#">start bootstrap</a>
-            <span class="navbar-text  px-4">
-            <ul>
-                <li>Portfolio</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-            </span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="my-container">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link navbar-text text-white" href="#">Portfolio</a>
+                        <a class="nav-item nav-link navbar-text text-white" href="#">About</a>
+                        <a class="nav-item nav-link navbar-text text-white" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </nav>
     <!-- MAIN -->
     <main>
-    <!-- sezione jumbo -->
-        <section class="hero center-text">
+    <!-- sezione hero -->
+        <section class="hero text-center">
             <div class="container d-flex align-items-center flex-column">
                 <div class="mt-5">
                     <img class="avatar" src="img/avatar.svg" alt="">
-                    <h1 class="text-uppercase mt-5 mb-5">start bootstrap</h1>
+                    <h1 class="text-uppercase mt-5 mb-3">start bootstrap</h1>
                     <div class="my-divider mb-3">
                         <div class="my-divider-line mr-2"></div>
                         <div><i class="my-divider-icon fas fa-star"></i></div>
@@ -52,42 +56,42 @@
                 </div>
             </div>
             <div class="container">
-                    <div class="row align-items-center justify-content-center px-5">
-                        <div class="col-md-6 col-lg-4 mb-5">
-                            <img class="icon" src="img/cabin.png" alt="home">
-                        </div>
-                        <div class="col-md-6 col-lg-4 mb-5 ">
-                            <img class="icon" src="img/cake.png" alt="cake">
-                        </div>
-                        <div class="col-md-6 col-lg-4 mb-5">
-                            <img class="icon" src="img/circus.png" alt="circus">
-                        </div>
-                        <div class="col-md-6 col-lg-4 mb-5">
-                            <img class="icon"src="img/game.png" alt="game">
-                        </div>
-                        <div class="col-md-6 col-lg-4 mb-5 ">
-                            <img class="icon" src="img/safe.png" alt="safe">
-                        </div>
-                        <div class="col-md-6 col-lg-4 mb-5">
-                            <img class="icon" src="img/submarine.png" alt="submarine">
-                        </div>
+                <div class="row align-items-center justify-content-center px-5">
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <img class="card" src="img/cabin.png" alt="home">
                     </div>
-            
+                    <div class="col-md-6 col-lg-4 mb-5 ">
+                        <img class="card" src="img/cake.png" alt="cake">
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <img class="card" src="img/circus.png" alt="circus">
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <img class="card"src="img/game.png" alt="game">
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5 ">
+                        <img class="card" src="img/safe.png" alt="safe">
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <img class="card" src="img/submarine.png" alt="submarine">
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- sezione about -->
         <section class="about text-center dflex mt-5 pb-5">
             <div class="container">
-                <h2 class=" text-white text-uppercase pt-5 pb-3">About</h2>
+                <h2 class=" text-white text-uppercase pt-5 pb-4">About</h2>
                 <div class="my-divider mb-5">
-                    <div class="my-divider-line mr-2"></div>
+                    <div class="my-divider-line"></div>
                     <div><i class="my-divider-icon fas fa-star"></i></div>
                     <div class="my-divider-line"></div>
                 </div>
             </div>
-            <div class="container my5 mb-5">
-                <div class="row justify-content-center mb-4">
-                <div class="col-lg-4 text-white my-text-left"><p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                <div class="col-lg-4 text-white my-text-left"><p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+            <div class="container mb-5">
+                <div class="row justify-content-center">
+                <div class="col-lg-4 text-white my-text-left mx-0"><p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
+                <div class="col-lg-4 text-white my-text-left mx-0"><p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
             </div>
             <div>
                 <a class="btn btn-xl btn-outline-light" href="#">
@@ -95,52 +99,72 @@
             </div>
         </section>
         <!-- sezione contatti -->
-        <section class="row contact center-text mt-5">
-            <div class="container dflex">
-                <h2>Contact</h2>
-                <hr>
-                <div class="flex-column align-items-center">
-                    <p>nome: Pinco</p>
-                    <p>cognome:Pallo</p>
-                    <p>indirizzo: via booleana, 42</p>
-                    <p>messaggio: info request</p>
+        <section class="contact text-center mt-5 mb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-uppercase pt-5 pb-3">contact me</h2>
+                <div class="my-divider mb-5">
+                    <div class="my-divider-line"></div>
+                    <div><i class="my-divider-icon fas fa-star"></i></div>
+                    <div class="my-divider-line"></div>
                 </div>
-                <div class="center-text mb-5">
-                    <a class="btn btn-xl btn-outline-dark" href="#">
-                    Invia</a>
                 </div>
             </div>
+            <div class="container">
+                <div class="row dflex justify-content-center">
+                    <form class="col-md-6">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Nome</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Il tuo nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="La tua email">
+                        </div>
+                        <div class="form-group">
+                            <label>Messaggio</label>
+                            <div>
+                                <textarea class="form-control mt-1" rows="4" placeholder="Scrivi il tuo messaggio" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3 disabled">Invia</button>
+                    </form>
+                </div>
+            </div>  
         </section>
     </main>
     <!-- FOOTER -->
     <footer>
     <!-- sezione info, social, claim -->
-    <section class="row footer-info center-text text-white">
-        <div class="container my-5">
-            <div class="row">
+    <section class="footer-info center-text text-white pt-4 pb-4">
+        <div class="container my-5 text-center">
+            <div class="row justify-content-center">
                 <div class="col-lg-4">
-                    <h3></h4>Indirizzo</h3>
-                    <p>via booleana, 42
-                    <br>
-                    Milano</p>
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p>2215 John Daniel Drive<br>Clark, MO 65243</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h4 class="text-uppercase ">Around the Web</h4>
+                        <a class="btn btn-outline-success"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-success" href="#"><i class="fab fa-fw fa-google"></i></a>
+                        <a class="btn btn-outline-success" href="#"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-success" href="#"><i class="fab fa-fw fa-linkedin-in"></i></a>
                 </div>
                 <div class="col-lg-4">
-                    <h3>Social Networks</h3>
-                </div>
-                <div class="col-lg-4">
-                    <h3>Chi sono</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, neque quia?</p>
+                    <h4 class="text-uppercase mb-3">About Freelancer</h4>
+                    <p>Freelance is a free to use, MIT licensed Bootstrap theme created by
+                    <a class="text-success" href="#">Start Bootstrap</a></p>
                 </div>
             </div>
         </div>
     </section>
     <section class="row my-footer center-text">
-        <div class="pb-3 mt-1 center-text text-white">
-            <div class="container">
-                Copyright &copy; 2021 - Made with &hearts; in February
+        <div class="row my footerdflex justify-content-center">
+            <div class="pt-3 mt-1 text-center text-white">
+                <p>Copyright &copy; 2022 - Classe #55</p>
             </div>
         </div>
-    </section>
+        </section>
     </footer>
 </body>
 </html>
