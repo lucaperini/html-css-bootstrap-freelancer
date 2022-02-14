@@ -4,13 +4,13 @@ body{
 
 h1{
     color:white;
-    font-size:3rem;
+    font-size:2rem;
     font-weight:700;
    
 }
 
 .avatar{
-    width:50%;
+    width:30%;
 }
 
 .navbar-text li{
@@ -43,8 +43,12 @@ h1{
     color:white;
 }
 
+.my-text-left{
+    text-align:left;
+}
 section.portfolio .my-divider-line{
     background-color:black;
+    width:15%;
 }
 
 section.portfolio .my-divider-icon{
@@ -52,8 +56,7 @@ section.portfolio .my-divider-icon{
 }
 
 .icon{
-    width:200px;
-    height:200px;
+    width:100%;
     border-radius:20px;
     object-fit: cover;
 }
